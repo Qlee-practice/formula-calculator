@@ -1,0 +1,27 @@
+{
+  "name": "formula-calculator",
+  "version": "0.0.1",
+  "description": "calculate formula",
+  "main": "index.js",
+  "scripts": {
+    "compile:watch": "tsc --project ./tsconfig.json -w",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "formula"
+  ],
+  "author": "li-qiang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/core-js": "^0.9.36",
+    "@types/rx": "^4.1.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "rxjs": "^5.5.6"
+  }
+}
